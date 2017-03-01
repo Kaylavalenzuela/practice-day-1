@@ -1,0 +1,49 @@
+.blue {
+  background-color: blue;
+}
+
+.red {
+  background-color: red;
+}
+.happy bunnies {
+  height:300px;
+  width: 40%;
+  background-color: yellow;
+}
+
+@media screen and (min-width: 550px) {
+  .happy bunnies {
+    background-color: purple;
+    width: 90%;
+  }
+}
+
+.hi {
+  width: 450px;
+  height: 25opx;
+  background-color: green;
+  width: 50%;
+}
+/*======Media Queries=====*/
+
+@media screen and (min-width: 450px) {
+.hi {
+  background-color: #eee;
+  border: 1px solid #000;
+  }
+}
+
+.sup {
+  width: 600px;
+  background-color: #eee;
+  width: 50%;
+}
+
+@media screen and (min-width: 450px) {
+  .sup {
+    background-color: #e40007;
+    border: 2px solid #000;
+
+  }
+
+}
